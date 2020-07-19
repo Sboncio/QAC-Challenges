@@ -4,5 +4,4 @@ def near(string1, string2):
         if newstr == string2:
             return True
     return False
-
-
+    
