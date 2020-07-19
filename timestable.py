@@ -1,6 +1,13 @@
-number = int(input("Please insert a times table: "))
+def timestable(max):
+    table = ''
 
-for i in range(number):
-    for j in range(number):
-        print((i+1)*(j+1), end='\t')
-    print('\n')
+    for i in range(max):
+        for j in range(max):
+            table = table + str(((i+1)*(j+1)))
+            table = table + '\t'
+        table = table + '\n'
+        
+    return table
+
+number = int(input("Please insert a times table: "))
+print(timestable(number))
