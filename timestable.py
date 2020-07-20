@@ -3,8 +3,7 @@ def timestable(max):
 
     for i in range(max):
         for j in range(max):
-            table = table + str(((i+1)*(j+1)))
-            table = table + '\t'
+            table = table + str(((i+1)*(j+1))) + '\t'
         table = table + '\n'
         
     return table
