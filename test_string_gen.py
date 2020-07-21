@@ -7,4 +7,4 @@ def test_string_len():
     assert len(string_gen()) == 5
 
 def test_string_case():
-    assert string_gen().islower == True
+    assert string_gen().islower() == True
