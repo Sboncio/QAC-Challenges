@@ -1,3 +1,4 @@
+import pytest
 from programs import string_gen
 
 def test_string_type():
