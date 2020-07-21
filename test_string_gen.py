@@ -1,3 +1,4 @@
+'''
 import pytest
 from programs import string_gen
 
@@ -9,3 +10,4 @@ def test_string_len():
 
 def test_string_case():
     assert string_gen().islower() == True
+'''
