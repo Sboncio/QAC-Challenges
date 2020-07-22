@@ -7,4 +7,3 @@ def order_words(sentence):
         output += word + " "
     return output
 
-print(order_words("Hello my name is is sam"))
