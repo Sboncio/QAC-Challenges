@@ -6,4 +6,3 @@ def vowel_swapper(str_input):
             str_input = str_input[:i] + swap.get(str_input[i].lower()) + str_input[i+1:]
     return str_input
 
-print(vowel_swapper("Everything's Available"))
